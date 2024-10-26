@@ -1,0 +1,427 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*common css start*/
+	.c_padding{
+		padding: 60px 0;
+	}
+	.c_title{
+		margin-bottom: 20px;
+		font-size: 25px;
+	}
+	.top_line::after{
+	    height: 35px;
+	    bottom: 40px;
+	}
+	/*header css start*/
+	.nh_logo h1{
+		font-size: 25px;
+	}
+	.toggler_sform{
+		width: 280px;
+	}
+	/*banner css start*/
+	.b_slider{
+		padding: 100px 0;
+	}
+	.bs_title{
+		margin-bottom: 30px;
+		font-size: 40px;
+	}
+	.bs_btn{
+		margin-top: 45px;
+	}
+	/*feature & about css start*/
+	.feature_top{
+		padding-bottom: 20px;
+	}
+	/*about css start*/
+	.about_img{
+		margin-bottom: 40px;
+	}
+	.about_text p:nth-child(3){
+	  padding-top: 15px;
+	}
+	/*portfolio css start*/
+	.pf_menu ul li a{
+		padding: 5px;
+	}
+	/*services css start*/
+	.service_bottom{
+		text-align: center;
+	}
+	.sb_header {
+	    margin-bottom: 30px;
+	}
+	.sb_icon {
+	    margin-right: 0;
+	    margin-bottom: 20px;
+	}
+	/*prices css start*/
+	.cta{
+		text-align: center;
+	}
+	.cta_title{
+		font-size: 20px;
+		margin-bottom: 20px !important;
+	}
+	.cta_btn {
+	    padding: 14px 70px 14px 20px;
+	}
+	/*testimonial css start*/
+	.testimonial{
+		margin-right: 0;
+	}
+	.ts_title{
+		margin-top: 10px;
+	}
+	.ts_slider{
+		padding: 10px;
+	}
+	.ts_subtitle{
+		margin: 5px 0;
+		font-size: 16px;
+	}
+	.ts_tag{
+		margin-bottom: 5px;
+		font-size: 16px;
+	}
+	.ts_p{
+		font-size: 16px;
+	}
+	.ts_text p:nth-child(5){
+		padding-top: 5px;
+	}
+	.ts_pre_next {
+	    padding: 25px 30px;
+	    position: absolute;
+	    top: 104%;
+	    right: 0;
+	    width: 100%;
+	    height: 0;
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    flex-direction: row;
+	}
+	.ts_pre_next button{
+		transform: rotate(0deg);
+	}
+	/*contact css start*/
+	.contact_section {
+	    padding-top: 80px !important;
+	}
+	.contact{
+		padding: 100px 20px 40px 20px;
+	}
+	.con_title{
+		width: 182px;
+	}
+	/*footer css start*/
+	.fb_text{
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	.footer_bottom {
+	    border-top: 1px solid var(--Oslo-Grey);
+	}
+	.footer_bottom:after{
+	    display: none;
+	}
+	.fb_link ul{
+		text-align: center !important;
+	}
+	.fb_link ul li{
+		margin-right: 15px !important;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*common css start*/
+	.c_padding{
+		padding: 60px 0;
+	}
+	.c_title{
+		margin-bottom: 30px;
+		font-size: 25px;
+	}
+	.top_line::after{
+	    height: 40px;
+	    bottom: 40px;
+	}
+	/*banner css start*/
+	.b_slider{
+		padding: 150px 0;
+	}
+	.bs_title{
+		margin-bottom: 40px;
+		font-size: 45px;
+	}
+	/*feature & about css start*/
+	.feature_top{
+		padding-bottom: 20px;
+	}
+	.about{
+		padding-top: 20px;
+	}
+	.feature_bottom{
+		padding: 0 110px;
+	}
+	/*about css start*/
+	.about_img{
+		margin-bottom: 40px;
+	}
+	.about_text p:nth-child(3){
+	  padding-top: 15px;
+	}
+	/*portfolio css start*/
+	.pf_menu ul li a{
+		padding: 5px;
+	}
+	/*services css start*/
+	.service_bottom{
+		text-align: center;
+	}
+	.sb_header {
+	    margin-bottom: 30px;
+	}
+	.sb_icon {
+	    margin-right: 0;
+	    margin-bottom: 20px;
+	}
+	/*team css start*/
+	.team_bottom{
+		margin-right: 70px;
+		margin-left: 70px;
+	}
+	/*prices css start*/
+	.pri_bottom{
+		margin-left: 80px;
+	    margin-right: 80px;
+	}
+	.cta{
+		text-align: center;
+	}
+	.cta_title{
+		font-size: 20px;
+		margin-bottom: 20px !important;
+	}
+	.cta_btn {
+	    padding: 14px 70px 14px 20px;
+	}
+	/*testimonial css start*/
+	.testimonial{
+		margin-right: 0;
+	}
+	.ts_title{
+		margin-top: 10px;
+	}
+	.ts_slider{
+		padding: 10px;
+	}
+	.ts_subtitle{
+		margin: 5px 0;
+		font-size: 16px;
+	}
+	.ts_tag{
+		margin-bottom: 5px;
+		font-size: 16px;
+	}
+	.ts_p{
+		font-size: 16px;
+	}
+	.ts_text p:nth-child(5){
+		padding-top: 5px;
+	}
+	.ts_pre_next {
+	    padding: 25px 30px;
+	    position: absolute;
+	    top: 104%;
+	    right: 0;
+	    width: 100%;
+	    height: 0;
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    flex-direction: row;
+	}
+	.ts_pre_next button{
+		transform: rotate(0deg);
+	}
+	/*contact css start*/
+	.contact_section {
+	    padding-top: 80px !important;
+	}
+	.contact{
+		padding: 100px 40px 40px 40px;
+	}
+	.con_title{
+		width: 182px;
+	}
+	/*footer css start*/
+	.fb_text{
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	.footer_bottom:after{
+	    bottom: 104px;
+	}
+	.fb_link ul{
+		text-align: center !important;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*common css start*/
+	.c_padding{
+		padding: 80px 0;
+	}
+	.top_line::after{
+	    height: 40px;
+	}
+	/*header css start*/
+	.nipro_navbar{
+		padding: 30px 0;
+	}
+	/*banner css start*/
+	.b_slider{
+		padding: 150px 0;
+	}
+	/*feature & about css start*/
+	.feature_top{
+		padding-bottom: 40px;
+	}
+	/*about css start*/
+	.about_img{
+		margin-bottom: 40px;
+	}
+	/*testimonial css start*/
+	.testimonial{
+		margin-right: 0;
+	}
+	.ts_slider{
+		padding: 20px 10px;
+	}
+	.ts_subtitle{
+		margin: 5px 0;
+		font-size: 16px;
+	}
+	.ts_tag{
+		margin-bottom: 5px;
+		font-size: 16px;
+	}
+	.ts_p{
+		font-size: 15px;
+	}
+	.ts_text p:nth-child(5){
+		padding-top: 5px;
+	}
+	.ts_pre_next {
+	    padding: 25px 30px;
+	    position: absolute;
+	    top: 104%;
+	    right: 0;
+	    width: 100%;
+	    height: 0;
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    flex-direction: row;
+	}
+	.ts_pre_next button{
+		transform: rotate(0deg);
+	}
+	/*contact css start*/
+	.contact{
+		padding: 100px 60px 40px 60px;
+	}
+	/*footer css start*/
+	.fb_p{
+		font-size: 14px;
+	}
+	.fb_link ul li{
+		margin-right: 10px !important;
+	}
+	.fb_link ul li a{
+		font-size: 15px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*feature css start*/
+	.feature_top{
+		padding-bottom: 40px;
+	}
+	.about{
+		padding-top: 40px;
+	}
+	.feature_bottom{
+		padding: 0 140px;
+	}
+	/*about css start*/
+	.ab_title{
+		margin-bottom: 10px;
+	}
+	.about_text p{
+		font-size: 15px;
+	}
+	.about_text p:nth-child(3){
+	  padding-top: 0;
+	}
+	.ab_btn{
+		margin-top: 10px;
+		padding: 10px 70px 10px 20px;
+		font-size: 15px;
+	}
+	/*team css start*/
+	.tm_text {
+	    padding: 15px 0 15px 16px;
+	}
+	.tmb_title{
+		font-size: 16px !important;
+	}
+	.tmb_p{
+		font-size: 15px !important;
+	}
+	/*prices css start*/
+	.pri_bottom{
+		padding: 48px 15px 40px 15px;
+	}
+	/*testimonial css start*/
+	.ts_subtitle{
+		margin: 10px 0;
+	}
+	.ts_tag{
+		margin-bottom: 20px;
+	}
+	.ts_text p:nth-child(5){
+		padding-top: 10px;
+	}
+	/*contact css start*/
+	.contact{
+		padding: 100px 160px 40px 160px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*testimonial css start*/
+	.ts_subtitle{
+		margin: 10px 0;
+	}
+	.ts_tag{
+		margin-bottom: 20px;
+	}
+	.ts_text p:nth-child(5){
+		padding-top: 20px;
+	}
+	/*contact css start*/
+	.contact{
+		padding: 100px 160px 40px 160px;
+	}
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
