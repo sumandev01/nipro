@@ -26,6 +26,7 @@
 	.bs_title{
 		margin-bottom: 30px;
 		font-size: 40px;
+		line-height: 50px;
 	}
 	.bs_btn{
 		margin-top: 45px;
@@ -33,6 +34,9 @@
 	/*feature start*/
 	.feature_top{
 		padding-bottom: 20px;
+	}
+	.fit_line::after{
+		bottom: -10px;
 	}
 	/*about css start*/
 	.about_img{
@@ -66,9 +70,9 @@
 		font-size: 20px;
 		margin-bottom: 20px !important;
 	}
-	.cta_btn {
+	/*.cta_btn {
 	    padding: 14px 70px 14px 20px;
-	}
+	}*/
 	/*testimonial css start*/
 	.testimonial{
 		margin-right: 0;
@@ -118,6 +122,10 @@
 	.con_title{
 		width: 182px;
 	}
+	.contact_btn{
+		display: block;
+		width: 100%;
+	}
 	/*footer css start*/
 	.fb_text{
 		margin-bottom: 5px;
@@ -158,6 +166,7 @@
 	.bs_title{
 		margin-bottom: 40px;
 		font-size: 45px;
+		line-height: 50px;
 	}
 	/*feature & about css start*/
 	.feature_top{
@@ -260,6 +269,10 @@
 	}
 	.con_title{
 		width: 182px;
+	}
+	.contact_btn{
+		display: block;
+		width: 100%;
 	}
 	/*footer css start*/
 	.fb_text{
