@@ -44,6 +44,7 @@ body{
 	text-transform: uppercase;
 	text-decoration: none;
 	border: 2px solid var(--Oslo-Grey);
+	border-radius: 0;
 	display: inline-block;
 	position: relative;
 	transition: 0.33s linear;
@@ -677,6 +678,12 @@ body{
 }
 .contact_form textarea{
 	resize: none;
+}
+.contact_btn{
+	padding: 14px 100px 14px 40px;
+}
+.contact_btn:focus-visible{
+	border: 2px solid;
 }
 /*contact css end*/
 /*footer css start*/
