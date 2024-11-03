@@ -75,14 +75,14 @@ body{
 }
 .top_line::after{
 	content: "";
-    width: 2px;
-    height: 48px;
-    background: var(--black);
-    position: absolute;
-    bottom: 54px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+	width: 2px;
+	height: 48px;
+	background: var(--black);
+	position: absolute;
+	bottom: 54px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
 /*common css end*/
 /*header css start*/
@@ -212,12 +212,12 @@ body{
 }
 .bs_span span::after{
 	content: "";
-    width: 2px;
-    height: 16px;
-    left: 0;
-    bottom: -3px;
-    background: var(--Oslo-Grey);
-    position: absolute;
+	width: 2px;
+	height: 16px;
+	left: 0;
+	bottom: -3px;
+	background: var(--Oslo-Grey);
+	position: absolute;
 }
 .bs_span span:nth-child(2)::after{
 	height: 20px;
@@ -264,14 +264,14 @@ body{
 }
 .fit_line::after{
 	content: "";
-    width: 50px;
-    height: 2px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    bottom: -19px;
-    background: var(--Oslo-Grey);
-    position: absolute;
+	width: 50px;
+	height: 2px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: -19px;
+	background: var(--Oslo-Grey);
+	position: absolute;
 }
 .fi_btn{
 	border: 0;
@@ -279,7 +279,7 @@ body{
 /*feature end*/
 /*about css start*/
 .about_text p:nth-child(3){
-  padding-top: 25px;
+	padding-top: 25px;
 }
 /*about css end*/
 /*portfolio css start*/
@@ -289,9 +289,9 @@ body{
 
 
 .pf_menu ul.nav-pills {
-    --bs-nav-pills-link-active-color: var(--black);
-    --bs-nav-pills-link-active-bg: transparent;
-    user-select: none;
+	--bs-nav-pills-link-active-color: var(--black);
+	--bs-nav-pills-link-active-bg: transparent;
+	user-select: none;
 }
 .nav-pills .nav-link.active{
 	border: 2px solid var(--black);
@@ -324,7 +324,7 @@ body{
 }
 
 .pf_gallery{
-	margin-top: 40px;
+	margin-top: 20px;
 	position: relative;
 	overflow: hidden;
 }
@@ -440,14 +440,14 @@ body{
 	position: relative;
 }
 .tm_social{
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(0%, 50%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(0%, 50%);
 	width: 0;
 	opacity: 0;
-    overflow: hidden;
-    transition: 0.33s linear;
+	overflow: hidden;
+	transition: 0.33s linear;
 }
 .tm_img:hover .tm_social{
 	width: 60px;
@@ -527,13 +527,13 @@ body{
 }
 .pri_body ul li:after{
 	content: "";
-    width: 5px;
-    height: 2px;
-    background: var(--Oslo-Grey);
-    left: -5%;
-    top: 55%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+	width: 5px;
+	height: 2px;
+	background: var(--Oslo-Grey);
+	left: -5%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	position: absolute;
 }
 .pri_bottom:hover .pri_btn{
 	color: var(--black);
@@ -563,8 +563,8 @@ body{
 }
 .ts_slider{
 	padding: 35px 25px;
-    position: relative;
-    border: 2px solid var(--Oslo-Grey);
+	position: relative;
+	border: 2px solid var(--Oslo-Grey);
 }
 .ts_img{
 	position: relative;
@@ -600,15 +600,15 @@ body{
 }
 .ts_pre_next{
 	padding: 30px 10px 30px 5px;
-    position: absolute;
-    top: 0;
-    right: -95px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid var(--Oslo-Grey);
-    align-items: flex-end;
-    flex-direction: column;
+	position: absolute;
+	top: 0;
+	right: -95px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid var(--Oslo-Grey);
+	align-items: flex-end;
+	flex-direction: column;
 }
 .ts_pre_next button{
 	transform: rotate(90deg);
@@ -671,10 +671,10 @@ body{
 .contact_form form input:-webkit-autofill:hover, 
 .contact_form form input:-webkit-autofill:focus, 
 .contact_form form input:-webkit-autofill:active{
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: var(--black);
-    transition: background-color 5000s ease-in-out 0s;
-    box-shadow: none;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: var(--black);
+	transition: background-color 5000s ease-in-out 0s;
+	box-shadow: none;
 }
 .contact_form textarea{
 	resize: none;
@@ -704,14 +704,14 @@ footer{
 }
 .footer_social ul li a i{
 	font-size: 16px;
-    color: var(--white);
-    border: 1px solid var(--white);
-    transition: 0.33s linear;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	color: var(--white);
+	border: 1px solid var(--white);
+	transition: 0.33s linear;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .footer_social ul li a i:hover{
 	color: var(--black);
